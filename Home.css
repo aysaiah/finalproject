@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #F6F7F6;
+  font-family: Roboto Condensed;
+}
+
+h1 {
+  color: #353535;
+  font-size: 36px;
+  margin: 0;
+  padding: .78em 2em;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: .8em 1.2em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  position: inherit;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding-top: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li h2 {
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: inherit;
+  text-align: right;
+  padding: 1em 2em;
+}
