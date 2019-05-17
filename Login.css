@@ -62,7 +62,7 @@ nav ul li h2 {
 }
 
 #home:hover, #home:active {
-  color: #271F53;
+  color: #FFB32A;
   transition: 0.3s;
 }
 
@@ -73,7 +73,7 @@ nav ul li h2 {
 
 
 #roster:hover, #roster:active {
-  color: #271F53;
+  color: #FFB32A;
   transition: 0.3s;
 }
 
@@ -83,9 +83,15 @@ nav ul li h2 {
 }
 
 #login:hover, #login:active {
-  color: #271F53;
+  color: #FFB32A;
   transition: 0.3s;
 }
+
+#post:hover, #post:active {
+  color: #FFB32A;
+  transition: 0.3s;
+}
+
 
 .form-box {
   width: 720px;

@@ -12,6 +12,11 @@ h1 {
   letter-spacing: 1px;
 }
 
+h2 {
+  color: #353535;
+  letter-spacing: 1px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -46,4 +51,43 @@ nav ul li h2 {
   background-color: inherit;
   text-align: right;
   padding: 1em 2em;
+}
+
+#r {
+  color: #FFB32A;
+}
+
+#b {
+  color: #271F53;
+}
+
+#home:hover, #home:active {
+  color: #FFB32A;
+  transition: 0.3s;
+}
+
+#schedule:hover, #schedule:active {
+  color: #FFB32A;
+  transition: 0.3s;
+}
+
+
+#roster:hover, #roster:active {
+  color: #FFB32A;
+  transition: 0.3s;
+}
+
+#lineup:hover, #lineup:active {
+  color: #FFB32A;
+  transition: 0.3s;
+}
+
+#login:hover, #login:active {
+  color: #FFB32A;
+  transition: 0.3s;
+}
+
+#post:hover, #post:active {
+  color: #FFB32A;
+  transition: 0.3s;
 }
