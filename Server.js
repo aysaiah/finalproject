@@ -1,9 +1,19 @@
 const express = require('express')
-const app = express()
 const bodyParser = require('body-parser')
+const app = express()
+var mongoose = require('mongoose');
+const bcrypt = require('bcrypt')
+const passport = require('passport')
+const LocalStrategy = require('passport-local').Strategy;
+const session = require("express-session")
+const port = 8080
 
-var gameSchema = require('./models/gameSchema')
-var lineupSchema = require('./models/lineupSchema')
+mongoose.connect('mongodb://127.0.0.1:27017/FinalProject');
+
+app.use(express.static('public'))
+app.set('view engine', 'pug')
+app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.json())
 
 app.get('/', function (req, res) {
   res.render('Home')
@@ -61,4 +71,4 @@ app.get('/login', function (req, res) {
   res.render('Login')
 })
 
-// change
+app.listen(port, () => console.log(`App listening on port ${port}!`))

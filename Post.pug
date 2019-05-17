@@ -1,7 +1,7 @@
 html
   head
     link(href='https://fonts.googleapis.com/css?family=Roboto Condensed', rel='stylesheet')
-    title  RIORDAN BASEBALL - VARSITY HOME
+    title  CC. 
   body
     .container
       header
@@ -20,13 +20,17 @@ html
               h2#lineup(href='#') LINEUP
             li
               h2#login(href='#') LOG IN
-    #varsdiv
-      h1#vars  RIORDAN VARSITY 2019 
-      h2.info  COLORS: PURPLE, GOLD
-      h2.info  MASCOT: CRUSADERS
-      h2.info  ADDRESS:  175 PHELAN AVE, SAN FRANCISCO, CA 94112
-      h2.info  COACH:  BRANDON RAMSEY
-      h2.info  NATIONAL RANK:  7507
-      h2.info  STATE RANK: 654
-    footer
-      h2#foot  © ARCHBISHOP RIORDAN HIGH SCHOOL 2019 
+    .form-box
+      form
+        h2.formText  OPPONENT TEAM 
+        input.textform(type='text', name='username')
+        h2.formText  DATE 
+        input.textform(type='text', name='date')
+        h2.formText  TIME 
+        input.textform(type='text', name='time')
+        h2.formText  DETAILS 
+        input.textform(type='text', name='details')
+        h2.formText  SCORE 
+        input.textform(type='text', name='score')
+        button(type='', "submit"='')
+          h2.buttontext GO

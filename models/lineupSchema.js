@@ -5,5 +5,5 @@ var lineupSchema = new Schema({
   name: { type: String }
 })
 
-var Post = mongoose.model('Post', lineupSchema);
-module.exports = Post 
+// var Post = mongoose.model('Post', lineupSchema);
+// module.exports = Post

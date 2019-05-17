@@ -1,0 +1,30 @@
+html
+  head
+    link(href='https://fonts.googleapis.com/css?family=Roboto Condensed', rel='stylesheet')
+    title  CC. 
+  body
+    .container
+      header
+        h1.logo
+          span#r RIORDAN
+          span#b BASEBALL
+        nav
+          ul#nav
+            li
+              h2#home(href='#') HOME
+            li
+              h2#schedule(href='#') SCHEDULES
+            li
+              h2#roster(href='#') ROSTER
+            li
+              h2#lineup(href='#') LINEUP
+            li
+              h2#login(href='#') LOG IN
+    .form-box
+      form
+        h2.formText  USERNAME 
+        input.textform(type='text', name='username')
+        h2.formText  PASSWORD 
+        input.textform(type='password', name='password')
+        button(type='', "submit"='')
+          h2.buttontext GO

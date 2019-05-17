@@ -10,5 +10,5 @@ var gameSchema = new Schema({
   opponentScore: { type: Number, default: 0 },
 })
 
-var Post = mongoose.model('Post', gameSchema);
-module.exports = Post
+// var Post = mongoose.model('Post', gameSchema);
+// module.exports = Post
